@@ -173,16 +173,6 @@ footer {
 
 @media (max-width: 700px) {
 
-    .post {
-        flex-direction: column;
-    }
-
-    .pall {
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 500px) {
     .ham {
         display: block;
     }
@@ -191,4 +181,37 @@ footer {
         display: none;
     }
 
+    .profile {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lh {
+        align-items: center;
+    }
+
+    .post {
+        flex-wrap: wrap ;
+    }
+
+    .pall {
+        flex-direction: column;
+    }
+
+    .w1 {
+        flex-direction: column;
+    }
+
+    .w2 {
+        flex-direction: column;
+    }
+
+    .w3 {
+        flex-direction: column;
+    }
+
+    .wp2 {
+        max-width: 300px;
+    }
 }

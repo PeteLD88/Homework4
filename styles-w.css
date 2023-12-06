@@ -178,6 +178,32 @@ footer {
 
 @media (max-width: 700px) {
 
+    .ham {
+        display: block;
+    }
+
+    .nav-a {
+        display: none;
+    }
+
+    .profile {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lh {
+        align-items: center;
+    }
+
+    .post {
+        flex-wrap: wrap ;
+    }
+
+    .pall {
+        flex-direction: column;
+    }
+
     .w1 {
         flex-direction: column;
     }
@@ -190,22 +216,7 @@ footer {
         flex-direction: column;
     }
 
-    .w4 {
-        flex-direction: column;
-    }
-
     .wp2 {
         max-width: 300px;
     }
-}
-
-@media (max-width: 500px) {
-    .ham {
-        display: block;
-    }
-
-    .nav-a {
-        display: none;
-    }
-
 }

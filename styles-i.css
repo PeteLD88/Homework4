@@ -291,6 +291,15 @@ footer {
 /* RESPONSIVE */
 
 @media (max-width: 700px) {
+
+    .ham {
+        display: block;
+    }
+
+    .nav-a {
+        display: none;
+    }
+
     .profile {
         flex-direction: column-reverse;
         justify-content: center;
@@ -302,7 +311,7 @@ footer {
     }
 
     .post {
-        flex-direction: column;
+        flex-wrap: wrap ;
     }
 
     .pall {
@@ -324,15 +333,4 @@ footer {
     .wp2 {
         max-width: 300px;
     }
-}
-
-@media (max-width: 500px) {
-    .ham {
-        display: block;
-    }
-
-    .nav-a {
-        display: none;
-    }
-
 }
