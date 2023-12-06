@@ -1,0 +1,211 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL SETTING */
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    margin: auto;
+    max-width: 1600px;
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+/* NAV BAR */
+
+nav {
+    padding: 3rem 1rem;
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    gap: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-a  :hover {
+    color: yellow;
+}
+
+.nav-a {
+    display: flex;
+    cursor: pointer;
+    gap: 5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: firebrick;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.ham {
+    display: none;
+}
+
+/* MAIN */
+
+main {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    background-color: black;
+    margin-bottom: 10rem;
+}
+
+/* WORKS */
+
+.work {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 1rem;
+}
+
+.fea {
+    font-size: 60px;
+    padding-bottom: 3rem;
+    color: firebrick;
+}
+
+.w1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border-bottom: 1px solid red;
+    padding-bottom: 1rem;
+}
+
+.w2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border-bottom: 1px solid red;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.w3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border-bottom: 1px solid red;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.w4 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border-bottom: 1px solid red;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.wp2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.t1 {
+    font-size: 40px;
+}
+
+.b2 {
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    background-color: #c62d1f;
+    border-radius: 18px;
+    border: 1px solid #d02718;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #810e05;
+}
+
+.t2 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 25px;
+    align-items: center;
+}
+
+.t3 {
+    font-size: 26px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    /* background-color: cyan; */
+    /* border: 1px solid yellow; */
+    justify-content: center;
+    align-content: space-around;
+    margin-bottom: 10rem;
+}
+
+.f1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.soc {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cop {
+    font-size: 20px;
+    color: firebrick;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 700px) {
+
+    .w1 {
+        flex-direction: column;
+    }
+
+    .w2 {
+        flex-direction: column;
+    }
+
+    .w3 {
+        flex-direction: column;
+    }
+
+    .w4 {
+        flex-direction: column;
+    }
+
+    .wp2 {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    .ham {
+        display: block;
+    }
+
+    .nav-a {
+        display: none;
+    }
+
+}

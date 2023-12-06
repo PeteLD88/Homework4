@@ -1,0 +1,194 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL SETTING */
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    margin: auto;
+    max-width: 1600px;
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+/* NAV BAR */
+
+nav {
+    padding: 3rem 1rem;
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    gap: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-a  :hover {
+    color: yellow;
+}
+
+.nav-a {
+    display: flex;
+    cursor: pointer;
+    gap: 5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: firebrick;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.ham {
+    display: none;
+}
+
+/* MAIN */
+
+main {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    background-color: black;
+    margin-bottom: 10rem;
+}
+
+/* POST */
+
+.post {
+    display: flex;
+    flex-direction: column;
+    color: firebrick;
+    padding-bottom: 2rem;
+    gap: 20px;
+}
+
+.pall {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.head1 {
+    padding: 1rem;
+    font-size: 60px;
+    color: firebrick;
+}
+
+.pl {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid red;
+}
+
+.pr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    gap: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid red;
+}
+
+.pg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    gap: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid red;
+}
+
+.ph {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    gap: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid red;
+}
+
+.p1 {
+    font-size: 50px;
+
+}
+
+.p2 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 30px;
+}
+
+.p3 {
+    font-size: 26px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    /* background-color: cyan; */
+    /* border: 1px solid yellow; */
+    justify-content: center;
+    align-content: space-around;
+    margin-bottom: 10rem;
+}
+
+.f1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.soc {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cop {
+    font-size: 20px;
+    color: firebrick;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 700px) {
+
+    .post {
+        flex-direction: column;
+    }
+
+    .pall {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    .ham {
+        display: block;
+    }
+
+    .nav-a {
+        display: none;
+    }
+
+}
